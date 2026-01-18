@@ -71,7 +71,7 @@ Make sure you have:
 
 ### 1️⃣ Install Ollama
 
-bash
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
 
 Verify:
@@ -88,10 +88,9 @@ ollama list
 
 3️⃣ Start Ollama Server
 ollama serve
-
 (Ollama runs on http://localhost:11434)
-▶️ Run the Application
 
+▶️ Run the Application
 mvn clean spring-boot:run
 
 Spring Boot will start on:
