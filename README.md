@@ -35,27 +35,6 @@ A **Spring Boot–based AI system** that analyzes user complaints and feedback t
 - **REST APIs**
 
 ---
-
-## 📂 Project Structure
-
-smart-feedback-analyzer
-├── pom.xml
-├── README.md
-└── src/main/java/com/example/feedbackai
-├── controller
-│ └── FeedbackController.java
-├── service
-│ ├── FeedbackService.java
-│ └── LlmService.java
-├── client
-│ └── OllamaClient.java
-├── model
-│ ├── Feedback.java
-│ └── FeedbackAnalysis.java
-├── repository
-│ └── FeedbackRepository.java
-└── FeedbackAiApplication.java
----
 ## ⚙️ Prerequisites
 
 Make sure you have:
