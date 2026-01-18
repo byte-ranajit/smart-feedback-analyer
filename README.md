@@ -71,7 +71,7 @@ Make sure you have:
 
 ### 1️⃣ Install Ollama
 
-``` bash
+bash
 curl -fsSL https://ollama.com/install.sh | sh
 
 Verify:
