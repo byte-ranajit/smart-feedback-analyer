@@ -16,9 +16,7 @@ public class FeedbackService {
 
     public Feedback process(FeedbackRequest request) throws Exception {
 
-        FeedbackAnalysis analysis =
-                llmService.analyze(request.getMessage());
-
+        FeedbackAnalysis analysis = llmService.analyze(request.getMessage());
         Feedback feedback = new Feedback();
         feedback.setUserName(request.getUserName());
         feedback.setMessage(request.getMessage());
