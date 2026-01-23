@@ -57,7 +57,7 @@ public class OllamaClient {
                                 request,
                                 String.class);
 
-                Map result = mapper.readValue(response, Map.class);
+                Map<?, ?> result = mapper.readValue(response, Map.class);
                 return result.get("response").toString();
         }
 }
